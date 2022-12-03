@@ -1,2 +1,2 @@
 build:
-	gcc erf.c -o erf2.exe -g -Wall -O3 -std=gnu17
+	gcc erf.c -o erf.exe -g -Wall -O3 -std=gnu17

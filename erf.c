@@ -2,6 +2,7 @@
 #include <stdio.h>  //printf
 
 int main() {
+  int a = 1;
   printf(
       "The integral of a Normal(0, 1) distribution "
       "between -1.96 and 1.96 is: %g\n",
