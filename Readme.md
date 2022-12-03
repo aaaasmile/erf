@@ -13,3 +13,10 @@ e poi lancio code:
     PS D:\scratch\c\erf> $env:path="C:\msys64\ucrt64\bin;" + $env:path
     Code .
 
+## Debugger
+Con la configurazione di default (vuota) e premendo F5 sul file che contiene la funzione main,
+riesco a settare dei breakpoint e fare andare il debugger. Come funzioni proprio non mi è chiaro.
+Proabilmente usa gdb che è nel path.
+Togliendo l'opzione -o3 riesco a debuggare meglio.
+
+
